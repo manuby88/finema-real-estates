@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Finema Real Estates Group Ltd — building today, shaping tomorrow." />
+  <title>Finema Real Estates Group Ltd</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Finema home">
+        <img src="finema-logo.png" alt="Finema Real Estates Group Ltd logo" />
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+
+      <nav id="mainNav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#recruitment">Recruitment</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">REAL ESTATE • CONSTRUCTION • DEVELOPMENT</p>
+          <h1>Building today.<br /><span>Shaping tomorrow.</span></h1>
+          <p class="hero-text">
+            We connect quality workmanship, dependable service providers,
+            and thoughtful design to support outstanding construction projects.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#recruitment">Join Our Network</a>
+            <a class="btn btn-outline" href="#services">Explore Services</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="hero-card-top">LET'S BUILD TOGETHER!</div>
+          <div class="hero-card-body">
+            <span class="card-icon">⌂</span>
+            <h2>Trusted hands.<br />Quality spaces.</h2>
+            <p>Professional services for construction and property projects.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div class="container trust-grid">
+        <div><strong>✓</strong><span>Quality</span></div>
+        <div><strong>✓</strong><span>Reliability</span></div>
+        <div><strong>✓</strong><span>Professionalism</span></div>
+        <div><strong>↗</strong><span>Growth</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container split">
+        <div>
+          <p class="eyebrow">ABOUT FINEMA</p>
+          <h2>Creating spaces with purpose.</h2>
+        </div>
+        <div>
+          <p>
+            Finema Real Estates Group Ltd is building a trusted network of
+            skilled and reliable service providers for construction projects.
+            Our approach focuses on collaboration, quality workmanship,
+            dependable delivery, and long-term growth.
+          </p>
+          <p class="note">
+            This website is a concept demonstration prepared for presentation
+            purposes. Company details, images, contact information, and claims
+            should be confirmed by Finema before publication.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-light" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">WHAT WE DO</p>
+          <h2>Our service network</h2>
+          <p>Connecting projects with specialized construction professionals.</p>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card"><span>▦</span><h3>Tiling & Flooring</h3><p>Finishing solutions for attractive and durable spaces.</p></article>
+          <article class="service-card"><span>▰</span><h3>Finishing & Painting</h3><p>Professional finishing work that brings spaces to life.</p></article>
+          <article class="service-card"><span>▥</span><h3>Doors & Door Frames</h3><p>Installation and workmanship for residential projects.</p></article>
+          <article class="service-card"><span>❧</span><h3>Compound & Landscaping</h3><p>Outdoor environments designed with care and detail.</p></article>
+          <article class="service-card"><span>▤</span><h3>Kitchen Cabinets & Woodwork</h3><p>Practical and attractive carpentry solutions.</p></article>
+          <article class="service-card"><span>⇧</span><h3>Lift Installation & MEP</h3><p>Specialist coordination for technical project needs.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section recruitment" id="recruitment">
+      <div class="container recruitment-grid">
+        <div>
+          <p class="eyebrow">SERVICE PROVIDER RECRUITMENT</p>
+          <h2>Are you ready to build with us?</h2>
+          <p>
+            We are looking for skilled and reliable professionals, including
+            painters, plumbers, architects, builders, foremen, and other
+            construction specialists.
+          </p>
+          <ul>
+            <li>Showcase your experience and completed projects.</li>
+            <li>Join a growing network of construction professionals.</li>
+            <li>Be considered for future project opportunities.</li>
+          </ul>
+        </div>
+
+        <form id="interestForm" class="application-card">
+          <h3>Register your interest</h3>
+          <label for="fullName">Full name</label>
+          <input id="fullName" name="fullName" type="text" required />
+
+          <label for="trade">Your profession</label>
+          <select id="trade" name="trade" required>
+            <option value="">Choose a service</option>
+            <option>Painter</option>
+            <option>Plumber</option>
+            <option>Architect</option>
+            <option>Builder</option>
+            <option>Foreman</option>
+            <option>Electrician</option>
+            <option>Other</option>
+          </select>
+
+          <label for="phone">Phone / WhatsApp</label>
+          <input id="phone" name="phone" type="tel" required />
+
+          <label for="message">Brief experience</label>
+          <textarea id="message" name="message" rows="4" placeholder="Tell us about your experience..."></textarea>
+
+          <button class="btn btn-primary" type="submit">Submit Interest</button>
+          <p class="form-note">Demo form only — no data is sent to a server.</p>
+          <p id="formMessage" class="form-message" role="status"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-box">
+        <div>
+          <p class="eyebrow">LET'S CONNECT</p>
+          <h2>Have a project or want to join our network?</h2>
+          <p>Reach out to discuss collaboration and service opportunities.</p>
+        </div>
+        <div class="contact-details">
+          <p><strong>Recruitment email</strong><br />thefinemamoproperties@gmail.com</p>
+          <p><strong>Alternative email</strong><br />finemarealestategrouplimited@gmail.com</p>
+          <p class="note">Contact details shown from the recruitment flyer and should be verified before launch.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-wrap">
+      <p>© <span id="year"></span> Finema Real Estates Group Ltd</p>
+      <p>Building today. Shaping tomorrow.</p>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" id="whatsappButton" href="#" aria-label="Contact Finema on WhatsApp" title="Contact Finema on WhatsApp">
+    <span aria-hidden="true">⌕</span>
+    <strong>WhatsApp</strong>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
